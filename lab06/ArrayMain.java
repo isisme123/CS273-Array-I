@@ -26,7 +26,7 @@ public class ArrayMain {
         /////////////////////////////////////////////////////////////////
 
         /**
-        * For checkpoint 1:
+        * For checkpoint 1, Hint: Use two for loops to complete this checkpoint
         * Justification: 
         * The reason for using two separate `for` loops is to clearly differentiate between printing the numbers
         * and printing the dashed line. This makes the code more readable and modular, ensuring that 
@@ -34,18 +34,21 @@ public class ArrayMain {
         *
         * Context:
         * Students might struggle with writing readable code because they often prioritize functionality 
-        * over clarity, especially when learning to solve problems programmatically. For example, a common 
-        * approach might be to merge tasks into a single loop, resulting in cluttered logic that is harder 
+        * over clarity, especially when learning to solve problems programmatically. Students might try 
+        * to merge tasks into a single loop, resulting in cluttered logic that is harder 
         * to debug and maintain. By separating the tasks into two loops, this code demonstrates a practice 
         * of breaking down complex tasks into manageable steps.
         *
         * Importance:
-        * These changes improve the usability and readability of the program output. By presenting the 
-        * numbers and a clear divider, users can easily distinguish between sections of data.
+        * This hint might help students better develope strong coding habits and skills as they learn
+        * to improve usability and readability of a program output. Adding this comment would 
+        * hopefully guide students to print the numbers in a clear and user friendly way 
+        * that help distinguish between sections of data.
         */
    
         // ***** CHECKPOINT 1 *****
         // Print the numbers, followed by a line of dashes
+        // Hint: Use two for loops to complete this checkpoint
         for (int i = 0; i < numElements; i++) {
             System.out.print(numberArray[i] + " ");
         }
