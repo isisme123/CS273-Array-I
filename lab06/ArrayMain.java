@@ -27,7 +27,7 @@ public class ArrayMain {
 
         /**
         * For checkpoint 1, Hint: Use two for loops to complete this checkpoint
-        * Justification: 
+        * Importance: 
         * The reason for using two separate `for` loops is to clearly differentiate between printing the numbers
         * and printing the dashed line. This makes the code more readable and modular, ensuring that 
         * each loop focuses on a single task. 
@@ -39,11 +39,13 @@ public class ArrayMain {
         * to debug and maintain. By separating the tasks into two loops, this code demonstrates a practice 
         * of breaking down complex tasks into manageable steps.
         *
-        * Importance:
+        * Justification:
         * This hint might help students better develope strong coding habits and skills as they learn
         * to improve usability and readability of a program output. Adding this comment would 
         * hopefully guide students to print the numbers in a clear and user friendly way 
-        * that help distinguish between sections of data.
+        * that help distinguish between sections of data. Furthermore, the hint helps highlight 
+        * the common use of creating two loops to simplify the logic so that students are not 
+        * misunderstanding and over complicating the checkpoint.
         */
    
         // ***** CHECKPOINT 1 *****
