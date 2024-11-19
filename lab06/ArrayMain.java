@@ -40,7 +40,7 @@ public class ArrayMain {
         * of breaking down complex tasks into manageable steps.
         *
         * Justification:
-        * This hint might help students better develope strong coding habits and skills as they learn
+        * This hint might help students better develop strong coding habits and skills as they learn
         * to improve usability and readability of a program output. Adding this comment would 
         * hopefully guide students to print the numbers in a clear and user friendly way 
         * that help distinguish between sections of data. Furthermore, the hint helps highlight 
