@@ -25,6 +25,25 @@ public class ArrayMain {
         //   At this point, the array has been created and initialized.
         /////////////////////////////////////////////////////////////////
 
+        /**
+        * For checkpoint 1:
+        * Justification: 
+        * The reason for using two separate `for` loops is to clearly differentiate between printing the numbers
+        * and printing the dashed line. This makes the code more readable and modular, ensuring that 
+        * each loop focuses on a single task. 
+        *
+        * Context:
+        * Students might struggle with writing readable code because they often prioritize functionality 
+        * over clarity, especially when learning to solve problems programmatically. For example, a common 
+        * approach might be to merge tasks into a single loop, resulting in cluttered logic that is harder 
+        * to debug and maintain. By separating the tasks into two loops, this code demonstrates a practice 
+        * of breaking down complex tasks into manageable steps.
+        *
+        * Importance:
+        * These changes improve the usability and readability of the program output. By presenting the 
+        * numbers and a clear divider, users can easily distinguish between sections of data.
+        */
+   
         // ***** CHECKPOINT 1 *****
         // Print the numbers, followed by a line of dashes
         for (int i = 0; i < numElements; i++) {
