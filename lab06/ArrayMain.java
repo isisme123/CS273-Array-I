@@ -27,11 +27,24 @@ public class ArrayMain {
 
         // ***** CHECKPOINT 1 *****
         // Print the numbers, followed by a line of dashes
-
+        for (int i = 0; i < numElements; i++) {
+            System.out.print(numberArray[i] + " ");
+        }
+        System.out.println();
+        for (int j = 0; j < 20; j++) {
+            System.out.print("-");
+        }
+        System.out.println();
 
         // ***** CHECKPOINT 2 *****
         // Compute/print the average of the numbers
-
+        double sum = 0;
+        double avg = 0;
+        for (int i = 0; i < numElements; i++) {
+            sum = sum + numberArray[i];
+        }
+        avg = sum / numElements;
+        System.out.println("The average of the numbers is " + avg);
 
         //System.out.println("The average of the numbers is "+???);
 
@@ -42,21 +55,41 @@ public class ArrayMain {
 
         // ***** CHECKPOINT 4 *****
         // Find/print the smallest number in the array
-
+        int minimum = numberArray[0];
+        for (int i = 0; i < numElements; i++) {
+            if (numberArray[i] < minimum) {
+                minimum = numberArray[i];
+            }
+        }
+        System.out.println("The minimum element is " + minimum);
 
         //System.out.println("The minimum element is "+???);
 
 
         // ***** CHECKPOINT 5 *****
         // Find/print the percentage of numbers that is even
-
+        double numEven = 0;
+        for (int i = 0; i < numElements; i++) {
+            if (numberArray[i] % 2 == 0) {
+                numEven++;
+            }
+        }
+        double percentage = (numEven / numElements) * 100;
+        System.out.println("The percentage of even numbers is " + percentage);
 
         //System.out.println("The percentage of even numbers is "+???);
 
 
         // ***** CHECKPOINT 6 *****
         // Compute/print the percentage of numbers in the range -300 to 300
-
+        double numRange = 0;
+        for (int i = 0; i < numElements; i++) {
+            if (numberArray[i] >= -300 && numberArray[i] <= 300) {
+                numRange++;
+            }
+        }
+        double percentage1 = (numRange / numElements) * 100;
+        System.out.println("The percentage of numbers in the range -300..300 is " + percentage1);
 
         //System.out.println(
         //  "The percentage of numbers in the range -300..300 is "+???);
@@ -64,10 +97,24 @@ public class ArrayMain {
 
         // ***** CHECKPOINT 7 *****
         // Sort the numbers and print them out
-        
+                for (int i = 0; i < numElements; i++) {
+            for (int j = i + 1; j < numberArray.length; j++) {
+                if (numberArray[j] > numberArray[i]) {
+                    int temp = numberArray[i];
+                    numberArray[i] = numberArray[j];
+                    numberArray[j] = temp;
+                }
+            }
+        }
         
         // ***** CHECKPOINT 8 *****
         // Print the sorted numbers up to 10 per line
+        for (int i = 0; i < numElements; i++) {
+            System.out.print(numberArray[i] + " ");
+            if ((i + 1) % 10 == 0) {
+                System.out.println();
+            }
+        }
     }
     
     private static int getNumElements() {
